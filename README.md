@@ -17,7 +17,7 @@ mv moduloases ases
 **Cambiar max_execution_time = 30 → max_execution_time = 400 en el siguiente archivo**  
 ```bash
 nano /etc/php/$(php -v | head -n 1 | cut -d " " -f 2 | cut -f1-2 -d".")/apache2/php.ini 
-systemctl apache2 restart
+systemctl restart apache2
 ```
  **Configurar según la máquina, la url de acceso en config.php y los usuarios de la base de datos.**  
  ```bash
