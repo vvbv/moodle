@@ -4,7 +4,7 @@
  ```SQL 
  CREATE DATABASE moodle35 WITH TEMPLATE moodle34 OWNER usuario;
  ```
-## Preparación: Sitio.
+## Preparación: Sitio
 ```bash
 mkdir /var/www/moodledata35  
 cd /var/www/html  
