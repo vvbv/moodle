@@ -20,4 +20,4 @@ nano /etc/php/$(php -v | head -n 1 | cut -d " " -f 2 | cut -f1-2 -d".")/apache2/
  ```bash
 google-chrome http://127.0.0.1/moodle35/install.php || firefox http://127.0.0.1/moodle35/install.php
 ```
-Ingresar con desadmin
+**Finalmente ingresar con 'desadmin'**
