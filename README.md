@@ -19,7 +19,7 @@ mv moduloases ases
 nano /etc/php/$(php -v | head -n 1 | cut -d " " -f 2 | cut -f1-2 -d".")/apache2/php.ini 
 systemctl apache2 restart
 ```
- **Configurar según la máquina la url de acceso en config.php y los usuarios de la base de datos.**  
+ **Configurar según la máquina, la url de acceso en config.php y los usuarios de la base de datos.**  
  ```bash
 google-chrome http://127.0.0.1/moodle35/install.php || firefox http://127.0.0.1/moodle35/install.php
 ```
