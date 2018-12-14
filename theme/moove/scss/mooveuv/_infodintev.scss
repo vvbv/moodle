@@ -1,0 +1,42 @@
+#page-info-dintev-instruccion-inscripciones-cursos{
+  .content{
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #eee;
+    border-color: #e1e4e7;
+    box-shadow: 10px 10px 15px #999;
+    filter: shadow(color=#999999, direction=135, strength=5);
+  }
+  .credits{
+    margin-top: 15px;
+    text-align: center;
+  }   
+}
+
+#page-course-delete_course_old-index{
+  #myModal{
+    z-index: 10;
+  }
+}
+
+#page-course-delete_course_old-index{
+  #myModal{
+    .modal-content{
+      margin-top: 15%;
+      z-index: 5 !important;
+    }
+  }
+  .modal-backdrop.fade.show {
+    z-index: 6 !important;
+  }
+}
+
+#page-course-delete_course_old-index{
+  .alert.alert-warning{
+    h3{
+      font-size: 1.2rem;
+    }
+  }
+}

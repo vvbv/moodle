@@ -1,0 +1,38 @@
+<div class="frontpage-sponsors">
+    {{#sponsorsfrontpage}}
+    <div class="row">
+        <div class="col-md-4 offset-md-4 div-section-title">
+            <h3 class="frontpage-section-title">{{{sponsorstitle}}}</h3>
+            <hr>
+            <h6 class="frontpage-section-subtitle">{{{sponsorssubtitle}}}</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-2"></div>
+        {{#sponsors}}
+        <div class="col-lg-2 col-md-2">
+            <a href="{{{url}}}">
+                <img src="{{{image}}}" class="img-fluid" title="{{{url}}}"/>
+            </a>
+        </div>
+        {{/sponsors}}
+    </div>
+
+    {{/sponsorsfrontpage}}
+
+    {{#clientsfrontpage}}
+        <h2>{{{clientstitle}}}</h2>
+        <p>{{{clientssubtitle}}}</p>
+        <div class="row">
+            {{#clients}}
+                <div class="item">
+                    <a href="{{{url}}}">
+                        <img src="{{{image}}}" title="{{{url}}}"/>
+                    </a>
+                </div>
+            {{/clients}}
+        </div>
+
+        <hr />
+    {{/clientsfrontpage}}
+</div>

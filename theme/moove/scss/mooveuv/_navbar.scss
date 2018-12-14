@@ -1,0 +1,386 @@
+.fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+  .navbar-nav.d-none.d-md-flex.custom-menus{
+    display: none;
+  }
+  .nav.navbar-nav.ml-auto{
+    .usermenu{
+      .custon-btn-login.btn.btn-primary{
+        color: #fff;
+        padding: 0.3rem !important;
+        text-decoration: none;
+      }
+    }
+    .nav-item.lang-menu{
+      .icon-globe{
+        color: #fff !important;
+        display: none;
+      }
+      #moove-lang-menu{
+        display: none;
+      }
+      #custom-lang-menu{
+        display: inline;
+      }      
+    }
+
+    .usermenu{
+      .dropdown-menu.dropdown-menu-right menu.align-tr-br.show{
+        text-align: left !important;
+      }
+      .btn.btn-login-top.d-lg-none{
+        color: #fff !important;
+        border: 1px solid #fff !important;
+        display: none;
+      }
+      .usernametext{
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #fff;
+      }
+      .dropdown-toggle::after{
+        color: #fff;
+      }
+      .avatars{
+        img.userpicture{
+          margin-right: 0px !important;
+        }
+      }
+    }
+    
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      width: 5% !important;
+    }
+    .navbar-brand.has-logo{
+      width: 40% !important;
+      img{
+        max-width: 100%;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      width: 55% !important;
+      .nav-item.lang-menu{ 
+        width: 40% !important;
+        padding: 0% !important;
+        #custom-lang-menu{
+          button, .dropdown-menu.show{
+            padding-left: 0% !important;
+            padding-right: 0% !important;
+            max-width: 100% !important;
+            font-size: 0.9rem;
+          }
+        }
+      }
+      .popover-region-toggle.nav-link{
+        width: 8% !important;
+      }
+      .usermenu{
+        width: 40% !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px){
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{          
+    .nav.navbar-nav.ml-auto{
+      width: 55% !important;
+      .nav-item.lang-menu{ 
+        width: 40% !important;
+        padding: 0% !important;
+        #custom-lang-menu{
+          button, .dropdown-menu.show{
+            font-size: 0.7rem;
+          }
+        }
+      }
+      .usermenu{
+        .usernametext{
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}
+
+/*@media screen and (max-width: 780px){
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      width: 5% !important;
+    }
+    .navbar-brand.has-logo{
+      width: 40% !important;
+      img{
+        margin-left: 0;
+        max-width: 90%;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      width: 55% !important;
+      .nav-item.lang-menu{ 
+        width: 10% !important;
+        padding: 0% !important;
+        #moove-lang-menu{
+          display: inline !important;
+          .icon-globe{
+            display: inline !important;
+          }
+        }
+        #custom-lang-menu{
+          display: none !important;
+        }
+      }
+      .popover-region-toggle.nav-link{
+        width: 10% !important;
+      }
+      .usermenu{
+        width: 70% !important;
+        .usernametext{
+          font-size: 0.7rem;
+        }
+      }
+      .nav-link{
+        text-align: right !important;
+      }
+    }
+  }
+}*/
+
+@media screen and (max-width: 880px){
+  .navbar{
+    padding-top: 0 !important;
+    min-height: 140px !important;
+  }
+  #nav-drawer, #sidepre-blocks{
+    top: 140px !important;
+  }
+  .navbar-expand{
+    top: 0 !important;
+    padding-top: 0 !important;
+  }
+  #page-wrapper{
+    margin-top: 100px !important;
+  }
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      position: absolute !important;
+      top: 70px !important;
+      left: 1% !important;
+      width: 20% !important;
+      padding: 0 !important;
+      button{
+        padding: auto !important;
+        text-align: center !important;
+      }
+    }
+    .navbar-brand.has-logo{
+      position: absolute !important;
+      top: 0 !important;
+      left: 0px !important;
+      height: 55px !important;
+      width: 100% !important;
+      text-align: center;
+      img{
+        height: 100%% !important;
+        width: 70% !important;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      position: absolute !important;
+      top: 55px !important;
+      left: 21% !important;
+      width: 79% !important;
+      #custom-lang-menu{
+        width: 20%;
+        .dropdown-menu.show, .dropdown-menu{
+          left: 1% !important;
+          min-width: 250px !important;
+        }
+      }
+      #moove-lang-menu{
+        display: none;
+      }
+      .popover-region-toggle.nav-link{
+        width: 5% !important;
+      }
+      .usermenu{
+        width: 40% !important;
+        .userpicture.defaultuserpic{
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 580px){
+  .navbar{
+    padding-top: 0 !important;
+    min-height: 140px !important;
+  }
+  #nav-drawer, #sidepre-blocks{
+    top: 140px !important;
+  }
+  .navbar-expand{
+    top: 0 !important;
+    padding-top: 0 !important;
+  }
+  #page-wrapper{
+    margin-top: 100px !important;
+  }
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      position: absolute !important;
+      top: 70px !important;
+      left: 1% !important;
+      width: 20% !important;
+      padding: 0 !important;
+      button{
+        padding: auto !important;
+        text-align: center !important;
+      }
+    }
+    .navbar-brand.has-logo{
+      position: absolute !important;
+      top: 0 !important;
+      left: 0px !important;
+      height: 55px !important;
+      width: 100% !important;
+      text-align: center;
+      img{
+        height: 100% !important;
+        width: 70% !important;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      position: absolute !important;
+      top: 55px !important;
+      left: 21% !important;
+      width: 79% !important;
+      #moove-lang-menu{
+        display: inline !important;
+        .icon-globe{
+          display: inline !important;
+        }
+        .dropdown-menu.show, .dropdown-menu{
+          left: 1% !important;
+          min-width: 250px !important;
+        }
+      }
+      #custom-lang-menu{
+        display: none !important;
+      }
+      .nav-item.lang-menu{
+        max-width: 10%;
+      }
+      .popover-region-toggle.nav-link{
+        max-width: 10% !important;
+      }
+      .popover-region-container{
+        left: -100px !important;
+        top: 90px !important;
+      }
+      .usermenu{
+        width: 40% !important;
+        .userpicture.defaultuserpic{
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      top: 70px !important;
+      left: 1% !important;
+      width: 10% !important;
+      padding: 0 !important;
+      button{
+        padding: 8px !important;
+        text-align: center !important;
+      }
+    }
+    .navbar-brand.has-logo{
+      top: 0 !important;
+      left: 0px !important;
+      height: 55px !important;
+      width: 100% !important;
+      img{
+        height: 100%% !important;
+        width: 100% !important;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      top: 55px !important;
+      left: 12% !important;
+      width: 85% !important;
+      #moove-lang-menu{
+        width: 20% !important;
+        .dropdown-menu.show, .dropdown-menu{
+          left: 1% !important;
+          min-width: 250px !important;
+        }
+      }
+      .popover-region-toggle.nav-link{
+        width: 5% !important;
+      }
+      .popover-region-container{
+        left: 0% !important;
+        top: 140px !important;
+      }
+      .usermenu{
+        width: 40% !important;
+        .userpicture.defaultuserpic{
+          display: none !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px){
+  .fixed-top.navbar.navbar-light.navbar-expand.moodle-has-zindex{
+    .d-inline-block.mr-3.drawer-toggle{
+      button{
+        padding: 8px !important;
+        text-align: center !important;
+      }
+    }
+    .navbar-brand.has-logo{
+      top: 0 !important;
+      left: 0px !important;
+      height: 55px !important;
+      width: 100% !important;
+      img{
+        height: 100%% !important;
+        width: 100% !important;
+      }
+    }            
+    .nav.navbar-nav.ml-auto{
+      top: 55px !important;
+      left: 20% !important;
+      width: 80% !important;
+      #moove-lang-menu{
+        width: 30% !important;
+      }
+      .popover-region-toggle.nav-link{
+        width: 30% !important;
+      }
+
+      .usermenu{
+        width: 40% !important;
+        .usernametext{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+

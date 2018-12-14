@@ -1,0 +1,32 @@
+// Import all scss moove files
+@import "extras/transitions";
+@import "extras/simple-line-icons";
+@import "extras/animate";
+@import "extras/metismenu";
+@import "moove/general";
+@import "moove/breadcrumb";
+@import "moove/navbar";
+@import "moove/frontpage";
+@import "moove/login";
+@import "moove/footer";
+@import "moove/nav-drawer";
+@import "moove/blocks";
+@import "moove/mydashboard";
+@import "moove/course";
+@import "moove/grade";
+@import "moove/btnapp";
+@import "moove/calendar";
+@import "moove/responsive";
+
+/*Enlazar archivos de personalización css uv*/
+@import "mooveuv/footer";
+@import "mooveuv/frontpage";
+@import "mooveuv/btnapp";
+@import "mooveuv/responsive";
+@import "mooveuv/messages";
+@import "mooveuv/navbar";
+@import "mooveuv/mydashboard";
+@import "mooveuv/course";
+@import "mooveuv/infodintev";
+@import "mooveuv/forgotpassword";
+@import "mooveuv/admin";

@@ -1,0 +1,136 @@
+#personalize-buttons{
+  text-align: right;
+  padding: 0.2rem;
+  margin: 10px 10px 0 0;
+  a{
+    color: white;
+    background-color: #455a64;
+    border-color: #eef5f9;
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin: 10px 10px 0 0;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+.course_category_tree{
+  .categoryname{
+    font-size: 1.1rem !important;
+  }
+  .coursename{
+    font-size: 0.8rem !important;
+  }
+}
+
+#page-course-management{
+    #coursecat-management{
+      .card-body{
+        .ml-1.list-unstyled{
+          .listitem.listitem-category.list-group-item.list-group-item-action{
+            .float-left.categoryname{
+              color: #CD1F32;
+              font-weight: bold;
+            }
+            .course-count.dimmed{
+              color: #CD1F32;
+            }
+            .ml{
+              .float-left{
+                color: #2C4252;
+                font-weight: normal;
+              }
+              .action-menu-item i, .action-menu-trigger i, .action-menu-trigger .dropdown-toggle::after{
+                color: #2C4252 !important;
+              }
+              .course-count.dimmed{
+                color: #2C4252;
+              }
+              .ml{
+                .float-left{
+                  color: #6A6C6D;
+                }
+                .action-menu-item i, .action-menu-trigger i, .action-menu-trigger .dropdown-toggle::after{
+                  color: #6A6C6D !important;
+                }
+                .course-count.dimmed{
+                  color: #6A6C6D;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+}
+
+#page-course-index{
+  .course_category_tree.clearfix.category-browse.category-browse-0{
+    .subcategories{
+      .categoryname{
+        a{
+          color: #CD1F32;
+        }
+        font-weight: bold;
+      }
+      .subcategories{
+        .categoryname{
+          a{
+            color: #2C4252;
+          }
+          font-weight: normal;
+        }
+
+        .subcategories{
+          .categoryname{
+            a{
+              color: #6A6C6D;
+            }
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+
+#page-course-index-category{
+    .subcategories{
+      .categoryname{
+        a{
+          color: #2C4252;
+        }
+        font-weight: normal;
+      }
+
+      .subcategories{
+        .categoryname{
+          a{
+            color: #6A6C6D;
+          }
+          font-weight: normal;
+        }
+      }
+    }
+
+}
+
+.generaltable{
+  thead{
+    tr{
+      th{
+        text-align: left !important;
+      }
+    }
+  }
+  tbody{
+    tr{
+      td{
+        text-align: left !important;
+      }
+    }
+  }
+}
+
+
