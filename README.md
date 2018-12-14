@@ -13,7 +13,9 @@ mv moodle moodle35
 cd moodle35/blocks  
 git clone https://github.com/sistemasases/moduloases.git  
 mv moduloases ases  
-# Cambiar max_execution_time = 30 → max_execution_time = 400 en el siguiente archivo  
+```
+**Cambiar max_execution_time = 30 → max_execution_time = 400 en el siguiente archivo**  
+```bash
 nano /etc/php/$(php -v | head -n 1 | cut -d " " -f 2 | cut -f1-2 -d".")/apache2/php.ini 
 systemctl apache2 restart
 ```
