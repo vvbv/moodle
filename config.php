@@ -20,6 +20,7 @@ $CFG->dboptions = array (
 $CFG->wwwroot   = 'http://127.0.0.1/moodle35';
 $CFG->dataroot  = '/var/www/moodledata35';
 $CFG->admin     = 'admin';
+$CFG->alternateloginurl = '';
 
 $CFG->directorypermissions = 0777;
 
