@@ -9,8 +9,13 @@
 mkdir /var/www/moodledata35  
 chmod -R 775 /var/www/moodledata35  
 cd /var/www/html  
+
 git clone https://github.com/vvbv/moodle.git  
 mv moodle moodle35  
+
+# Se puede copiar un sitio viejo con la versión esperada
+cp -r moodle_a_copiar moodle_copia
+
 cd moodle35/blocks  
 git clone https://github.com/sistemasases/moduloases.git  
 mv moduloases ases  
